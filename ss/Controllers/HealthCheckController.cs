@@ -9,6 +9,7 @@ namespace ss.Controllers
     public class HealthCheckController : ControllerBase
     {
         private readonly HealthCheckService healthCheckService;
+        //
 
         public HealthCheckController(HealthCheckService healthCheckService)
         {
